@@ -1,0 +1,24 @@
+{
+  "name": "mvfile",
+  "version": "1.0.0",
+  "description": "A CLI to move multiple files by name",
+  "main": "bin/index.tsx",
+  "scripts": {
+    "test": "echo Error: no test specified && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "bin": {
+    "mvfile": "./bin/index.tsx"
+  },
+  "author": "Luis gcoss",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.0.1",
+    "inquirer-select-directory": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.19"
+  }
+}
